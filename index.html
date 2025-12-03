@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <section class="imgBody">
+        <div class="blackBack">
+            <img src="./prompts/odin-lined.png" alt="Odin logo">
+            <h1 id="logoWord">ODIN</h1>
+        </div>
+    </section>
+    <section class="formBody">
+        <p id="sillyText">This is not a real online service! You known you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.
+            <br></br>
+            <br>You known you want to.</br></p>
+        <form action="" class="sillyForm">
+            <div class="inputsSect">
+                <legend>Let´s do this!</legend>
+                <div class="user">
+                    <div class="col">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="col">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="col">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail">
+                    </div>
+                    <div class="col">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="col">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="col">
+                        <label for="conPassword">Confirm Password</label>
+                        <input type="password" id="conPassword" name="conPassword" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p id="sillyP">Alredy have an account? <span id="greenBold">Log in</span></p>
+    </section>
+</body>
+</html>
